@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import uuid from 'uuid/v1';
+import { insert } from '../utils';
 
 const Todos = () => {
   const [todos, setTodos] = useState([]);
@@ -25,11 +26,7 @@ const Todos = () => {
         }
       }
 
-      //create new array of todos and insert new todo at index - we destructure to avoid mutating
-      const newTodos = [...todos];
-      newTodos.splice(index, 0, newTodo);
-      setTodos(newTodos);
-
+      setTodos(insert(todos, index, newTodo));
       setValue('');
     }
   };
