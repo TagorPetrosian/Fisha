@@ -1,0 +1,60 @@
+{
+  "name": "root",
+  "children": [
+    {
+      "name": "file",
+      "children": [
+        {
+          "name": "file1",
+          "children": []
+        },
+        {
+          "name": "file2",
+          "children": []
+        },
+        {
+          "name": "file3",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "edit",
+      "children": [
+        {
+          "name": "edit1",
+          "children": [
+            {
+              "name": "edit11",
+              "children": []
+            },
+            {
+              "name": "edit12",
+              "children": []
+            },
+            {
+              "name": "edit13",
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "edit2",
+          "children": []
+        },
+        {
+          "name": "edit3",
+          "children": []
+        }
+      ]
+    },
+    {
+      "name": "view",
+      "children": []
+    },
+    {
+      "name": "go",
+      "children": []
+    }
+  ]
+}

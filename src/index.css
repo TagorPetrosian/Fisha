@@ -1,0 +1,72 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  background-color: #dee1e3;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+.circle {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.buttons-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.buttons-wrapper > * {
+  padding: 0.5rem;
+  margin-right: 4px;
+}
+
+.color-picker {
+  width: 4rem;
+  height: 3rem;
+}
+
+.todos-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+li {
+  list-style-type: none;
+  font-size: 1.6rem;
+  padding: 0.3rem;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+.todo-background {
+  background-color: yellow;
+}
